@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/main_color"
+    >
+
+    <TextView
+        android:id="@+id/tvBarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Welcome user falfha alfhal lafhla faasf af"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/common_padding"
+        android:layout_marginEnd="@dimen/common_padding"
+        android:layout_toLeftOf="@+id/ivSignout"
+        android:gravity="start"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <ImageView
+        android:id="@+id/ivSignout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/common_padding"
+        android:padding="@dimen/common_padding_half"
+        android:src="@drawable/ic_logout"
+        android:background="@drawable/view_select_bg"
+        />
+
+</RelativeLayout>

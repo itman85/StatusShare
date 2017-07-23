@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseText" parent="@android:style/TextAppearance.Holo.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large.Inverse</item>
+        <item name="android:textColor">@color/main_color_textview</item>
+    </style>
+    <style name="SmallText" parent="BaseText">
+        <item name="android:textSize">@dimen/small_textsize</item>
+    </style>
+    <style name="NormalText" parent="BaseText">
+        <item name="android:textSize">@dimen/normal_textsize</item>
+    </style>
+    <style name="LargeText" parent="BaseText">
+        <item name="android:textSize">@dimen/large_textsize</item>
+    </style>
+    <style name="ExtraLargeText" parent="BaseText">
+        <item name="android:textSize">@dimen/extra_large_textsize</item>
+    </style>
+
+    <style name="BlueButtonStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:background">@drawable/blue_button_bg</item>
+    </style>
+    <style name="RedButtonStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:background">@drawable/red_button_bg</item>
+    </style>
+
+    <style name="GreyButtonStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:background">@drawable/gray_button_bg</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">97%</item>
+        <item name="android:windowMinWidthMinor">97%</item>
+    </style>
+
+    <style name="LoadmoreProgressbar">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/loadmore_progress_bar</item>
+        <item name="android:indeterminateDuration">700</item>
+    </style>
+
+</resources>

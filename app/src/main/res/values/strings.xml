@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">StatusShare</string>
+    <string name="status_share">STATUS SHARE</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">Sign In</string>
+    <string name="signup_text">Create an account</string>
+    <string name="copyright">\u00A9 2017 pcnguyen</string>
+    <string name="register_title">Register your infomation</string>
+    <string name="your_nick_name">Your nick name</string>
+    <string name="signup">Sign Up</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="edit_text">Edit</string>
+    <string name="delete_text">Delete</string>
+     <string name="sample_status_text">Please do not active touch ID Sensor for the Alpha Bank Mobile App if you have any
+    other person\'s fingerprint saved on your device.\nActivating fingerprint sign in means that
+        any fingerprint saved on your phone now or in the future, can access your Alpha Bank Mobile App.
+        \nPlease refer to Terms and Conditions for further details.\n\nPlease note: Your UserID will be stored
+        . You can turn this feature off in your App Settings at any time.
+    </string>
+    <string name="cancel">Cancel</string>
+    <string name="post">Post</string>
+    <string name="create_status">Post new status</string>
+    <string name="edit_status">Edit status</string>
+    <string name="add_photos">Add photos</string>
+    <string name="no_photos">No Photos</string>
+    <string name="add_images_text">Add Images</string>
+    <string name="add_or_remove_images_text">Add or Remove Images</string>
+    <string name="choose_images_text">Choose images</string>
+
+    <string name="logout_confirm">Do you want to log out this app?</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="delete_status_confirm">Are you sure you want to delete this status?</string>
+
+    <string name="username_error">Email must not empty</string>
+    <string name="password_error">Password must not empty</string>
+    <string name="email_empty_error">Email must not empty</string>
+    <string name="email_format_error">Email is not correct format</string>
+    <string name="nickname_error">Nickname must not empty</string>
+    <string name="password_format_error">Password must at least 6 characters</string>
+    <string name="password_confirm_error">Password confirm is not correct</string>
+    <string name="what_s_on_your_mind">What\'s on your mind?</string>
+</resources>
