@@ -1,5 +1,5 @@
 # StatusShare
-This app allow user can post status, read, edit, delete status in realtime.
+This app allow user can post status (support text and images), read, edit, delete status in realtime.
 # Tech Stacks
 - Mvp pattern to separate presenter layer from app logic.
 - Making event bus with rxjava
